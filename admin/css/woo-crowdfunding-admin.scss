@@ -1,0 +1,119 @@
+#woocommerce-product-data {
+	ul.wc-tabs {
+		li {
+			a::before {
+				content: "\f487";
+			}
+		}
+	}
+}
+
+#cf_data {
+	.cf-progress-desc {
+		vertical-align: top;
+	}
+
+	.cf-progress {
+		vertical-align: text-bottom;
+		width: 20%;
+		height: 14px;
+		border: 1px solid #aaa;
+		border-radius: 4px;
+		margin-left: 10px;
+		display: inline-block;
+
+		.cf-progress-percent {
+			background-color: #4ab915;
+			height: 14px;
+			display: block;
+		}
+	}
+}
+
+.cf_levels_options_group {
+	.cf_levels_field {
+		font-size: 12px;
+		line-height: 24px;
+		padding: 5px 9px;
+		margin: 9px 0;
+	}
+
+	.levels {
+		.level {
+			padding-bottom: 6px;
+			margin: 0;
+
+			&#new-level {
+				display: none;
+			}
+
+			.level-header {
+				padding: 5px 9px;
+				display: flex;
+				overflow: hidden;
+
+				.level-title {
+					flex-grow: 1;
+				}
+
+				.toggle-reward-details {
+					cursor: pointer;
+				}
+
+				.sort {
+					color: #a0a5aa;
+					margin-left: 10px;
+					cursor: move;
+
+					&:hover {
+						color: #777;
+					}
+
+					&:before {
+						content: "\e032";
+						font-family: "WooCommerce";
+					}
+				}
+			}
+
+			.level-fields {
+				padding: 5px 9px;
+				display: none;
+
+				p {
+					padding: 5px 0;
+				}
+
+				.level-row {
+					width: 100%;
+					overflow: hidden;
+
+					label {
+						line-height: 1.4;
+						width: auto;
+						padding: 0;
+						margin: 0;
+						float: none;
+					}
+
+					input[type="checkbox"] {
+						margin-right: .5em;
+					}
+
+					textarea {
+						height: 5.5em;
+					}
+
+					.options {
+						padding-bottom: .6em;
+					}
+				}
+			}
+		}
+
+		.add-level {
+			text-align: right;
+			padding: 5px 9px;
+		}
+	}
+}

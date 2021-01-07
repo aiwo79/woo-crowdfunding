@@ -1,0 +1,258 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Crowdfunding\n"
+"POT-Creation-Date: 2020-12-17 16:55+0100\n"
+"PO-Revision-Date: 2020-12-09 17:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: Ivo Slavík <info@ivoslavik.cz>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-woo-crowdfunding-admin.php:119
+msgid "Goal"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:122
+#: admin/class-woo-crowdfunding-admin.php:131
+msgid "The amount needed to complete your project."
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:124
+msgid "The project goal has been met!"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:127
+msgid "The project goal was not met by the deadline of"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:136
+msgid "Contributed"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:148
+msgid "End Date"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:150
+msgid "When the project should end."
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:167
+msgid "Contribution Levels"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:185
+#: admin/class-woo-crowdfunding-admin.php:254
+msgid "Toggle reward details"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:186
+#: admin/class-woo-crowdfunding-admin.php:255
+msgid "Drag and drop to set rewards order"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:192
+#: admin/class-woo-crowdfunding-admin.php:261
+msgid "Title"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:197
+#: admin/class-woo-crowdfunding-admin.php:266
+msgid "Amount"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:203
+#: admin/class-woo-crowdfunding-admin.php:272
+msgid "No reward"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:208
+#: admin/class-woo-crowdfunding-admin.php:277
+msgid "Manage stock?"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:216
+#: admin/class-woo-crowdfunding-admin.php:285
+msgid "Description"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:223
+#: admin/class-woo-crowdfunding-admin.php:292
+msgid "Stock"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:225
+#: admin/class-woo-crowdfunding-admin.php:294
+msgid "In stock"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:226
+#: admin/class-woo-crowdfunding-admin.php:295
+msgid "Out of stock"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:231
+#: admin/class-woo-crowdfunding-admin.php:300
+msgid "Quantity"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:237
+#: admin/class-woo-crowdfunding-admin.php:306
+msgid "Delete"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:312
+msgid "Add contribution level"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:365
+msgid "Publish donator"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:365
+#: admin/class-woo-crowdfunding-admin.php:366
+msgid "Yes"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:365
+#: admin/class-woo-crowdfunding-admin.php:366
+msgid "No"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:366
+msgid "Publish amount"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:521
+msgid "Crowdfunding Project"
+msgstr ""
+
+#: admin/class-woo-crowdfunding-admin.php:572
+msgid "CF Project"
+msgstr ""
+
+#: includes/class-woo-crowdfunding-shared.php:71
+#: includes/class-woo-crowdfunding-shared.php:146
+msgid "Raised"
+msgstr ""
+
+#: includes/class-woo-crowdfunding-shared.php:73
+msgid "Cancelled"
+msgstr ""
+
+#: includes/class-woo-crowdfunding-shared.php:147
+#, php-format
+msgid "%1$s from %2$s"
+msgstr ""
+
+#: includes/class-woo-crowdfunding-shared.php:156
+#, php-format
+msgid "<strong>1 day</strong> to go"
+msgid_plural "<strong>%1$d days</strong> to go"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-woo-crowdfunding-shared.php:160
+#, php-format
+msgid "<strong>1</strong> contributor"
+msgid_plural "<strong>%1$d</strong> contributors"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: includes/class-woo-crowdfunding-shared.php:168
+msgid "Project not set up."
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:97
+#: public/partials/template-contribution-levels.php:65
+msgid "It is not possible to contribute to this project, it is over now."
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:115
+msgid "I want to be publicly known as a donator"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:123
+msgid "I want to publish donated amount"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:226
+msgid "Contributions"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:232
+msgid "Contributors"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:288
+msgid "Number of anonymous contributors:"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:300
+msgid "not published"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:321
+#, php-format
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:329
+#, php-format
+msgid "Contribution %s has been added to your cart."
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:360
+msgid ""
+"It is not possible to mix contributions from multiple projects. Previous "
+"cart content has been removed."
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:365
+#: public/class-woo-crowdfunding-public.php:371
+msgid ""
+"It is not possible to mix standard products with contributions. Previous "
+"cart content has been removed."
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:397
+msgid "Support"
+msgstr ""
+
+#: public/class-woo-crowdfunding-public.php:436
+msgid "Contribution fully refunded"
+msgstr ""
+
+#: public/partials/template-contribution-levels.php:30
+msgid "There are no contribution levels."
+msgstr ""
+
+#: public/partials/template-contribution-levels.php:32
+msgid "It is not possible to contribute to this project, it is not yet set."
+msgstr ""
+
+#: public/partials/template-contribution-levels.php:56
+msgid "Support project"
+msgstr ""
+
+#: public/partials/template-contribution-levels.php:58
+msgid "This contribution is not available anymore."
+msgstr ""
+
+#: woo-crowdfunding.php:103
+msgid ""
+"Please install WooCommerce, it is required for Woo Crowdfunding plugin to "
+"work properly!"
+msgstr ""

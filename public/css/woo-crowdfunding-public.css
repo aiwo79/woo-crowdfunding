@@ -1,0 +1,65 @@
+.progress {
+  font-size: 16px;
+  text-align: left;
+}
+
+.progress .progress-bar {
+  width: auto;
+  height: 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.progress .progress-bar .progress-bar-percent {
+  height: 8px;
+  background-color: #4ab915;
+}
+
+.progress .info-bottom {
+  width: 100%;
+  overflow: hidden;
+}
+
+.progress .info-bottom div {
+  line-height: 20px;
+  width: 50%;
+  float: left;
+}
+
+.progress .info-bottom .days-left,
+.progress .info-bottom .contributors-count {
+  text-align: right;
+}
+
+.progress .info-bottom .contributors-count {
+  width: 100%;
+}
+
+.contribution-levels .level {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .contribution-levels {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+  }
+  .contribution-levels .level {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .contribution-levels .level .level-description {
+    flex-grow: 1;
+  }
+}
+
+.contributors-list {
+  width: 100%;
+}
+
+.contributors-list td + td {
+  text-align: right;
+}

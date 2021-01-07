@@ -1,0 +1,107 @@
+#woocommerce-product-data ul.wc-tabs li a::before {
+  content: "\f487";
+}
+
+#cf_data .cf-progress-desc {
+  vertical-align: top;
+}
+
+#cf_data .cf-progress {
+  vertical-align: text-bottom;
+  width: 20%;
+  height: 14px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#cf_data .cf-progress .cf-progress-percent {
+  background-color: #4ab915;
+  height: 14px;
+  display: block;
+}
+
+.cf_levels_options_group .cf_levels_field {
+  font-size: 12px;
+  line-height: 24px;
+  padding: 5px 9px;
+  margin: 9px 0;
+}
+
+.cf_levels_options_group .levels .level {
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+.cf_levels_options_group .levels .level#new-level {
+  display: none;
+}
+
+.cf_levels_options_group .levels .level .level-header {
+  padding: 5px 9px;
+  display: flex;
+  overflow: hidden;
+}
+
+.cf_levels_options_group .levels .level .level-header .level-title {
+  flex-grow: 1;
+}
+
+.cf_levels_options_group .levels .level .level-header .toggle-reward-details {
+  cursor: pointer;
+}
+
+.cf_levels_options_group .levels .level .level-header .sort {
+  color: #a0a5aa;
+  margin-left: 10px;
+  cursor: move;
+}
+
+.cf_levels_options_group .levels .level .level-header .sort:hover {
+  color: #777;
+}
+
+.cf_levels_options_group .levels .level .level-header .sort:before {
+  content: "\e032";
+  font-family: "WooCommerce";
+}
+
+.cf_levels_options_group .levels .level .level-fields {
+  padding: 5px 9px;
+  display: none;
+}
+
+.cf_levels_options_group .levels .level .level-fields p {
+  padding: 5px 0;
+}
+
+.cf_levels_options_group .levels .level .level-fields .level-row {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cf_levels_options_group .levels .level .level-fields .level-row label {
+  line-height: 1.4;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  float: none;
+}
+
+.cf_levels_options_group .levels .level .level-fields .level-row input[type="checkbox"] {
+  margin-right: .5em;
+}
+
+.cf_levels_options_group .levels .level .level-fields .level-row textarea {
+  height: 5.5em;
+}
+
+.cf_levels_options_group .levels .level .level-fields .level-row .options {
+  padding-bottom: .6em;
+}
+
+.cf_levels_options_group .levels .add-level {
+  text-align: right;
+  padding: 5px 9px;
+}
